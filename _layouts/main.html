@@ -1,0 +1,38 @@
+---
+---
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dan Inge Olsson</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
+</head>
+
+<body>
+        <header class="row row-wrap">
+                <h1 class="column column-50@l"><a href="index.html">Dan Inge Olsson</a></h1>
+                <nav class="column column-50@l">
+                        <ul>
+                                <li><a href="index.html">Hem</a></li>
+                                <li><a href="alskad.html">Älskad</a></li>
+                                <li><a href="events.html">Events</a></li>
+                                <li><a href="om.html">Om</a></li>
+                                <li><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                </nav>
+        </header>
+        <article>
+                {{content}}
+        </article>
+        <footer>
+                <p>&copy; 2017 - {{ site.time | date: '%Y' }} Dan Inge Olsson</p>
+        </footer>
+        {% include google-analytics.html %}
+</body>
+
+</html>
