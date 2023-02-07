@@ -1,4 +1,3 @@
 source 'https://rubygems.org'
-gem 'github-pages'
-gem 'sass', '~>3.4.22'
-gem "jekyll", "~> 3.7.4"
+gem 'github-pages', '228'
+gem "webrick", "~> 1.8"
